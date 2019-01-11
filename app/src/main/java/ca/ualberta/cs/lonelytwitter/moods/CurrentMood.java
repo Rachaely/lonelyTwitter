@@ -1,4 +1,4 @@
-package ca.ualberta.cs.lonelytwitter.models;
+package ca.ualberta.cs.lonelytwitter.moods;
 
 import java.util.Date;
 

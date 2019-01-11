@@ -1,4 +1,4 @@
-package ca.ualberta.cs.lonelytwitter.models;
+package ca.ualberta.cs.lonelytwitter.moods;
 
 public class Sad extends CurrentMood {
     public void setMood(String Mood){
