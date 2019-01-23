@@ -1,0 +1,100 @@
+<html>
+<head>
+<title>Tweet.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: #999999; font-weight: normal; font-style: normal; }
+.s0 { color: rgb(128,128,128); font-style: italic; }
+.s1 { color: rgb(128,128,128); font-weight: bold; font-style: italic; }
+.s2 { color: rgb(0,0,0); }
+.s3 { color: rgb(0,0,128); font-weight: bold; }
+</style>
+</head>
+<BODY BGCOLOR="#ffffff">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#c0c0c0" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+Tweet.java</FONT>
+</center></TD></TR></TABLE>
+<pre>
+<span class="s0">/** 
+ * </span><span class="s1">@ClassName </span><span class="s0">LonelyTwitterActivity 
+ * 
+ * </span><span class="s1">@Version </span><span class="s0">1.2 
+ * 
+ * </span><span class="s1">@Date </span><span class="s0">1/22/2019 
+ * 
+ * </span><span class="s1">@Copyright(c) </span><span class="s0">Ruoqi Yang, CMPUT301, University of Alberta 
+ 
+ */</span><span class="s2"> 
+</span><span class="s3">package </span><span class="s2">ca.ualberta.cs.lonelytwitter; 
+ 
+</span><span class="s3">import </span><span class="s2">java.util.Date; 
+ 
+ 
+</span><span class="s0">/** 
+ * Define a tweet 
+ * 
+ * </span><span class="s1">@Author </span><span class="s0">ry 
+ * </span><span class="s1">@Version </span><span class="s0">1.0 
+ * </span><span class="s1">@see </span><span class="s0">LonelyTwitterActivity 
+ * </span><span class="s1">@since </span><span class="s0">1.0 
+ */</span><span class="s2"> 
+ 
+</span><span class="s3">public class </span><span class="s2">Tweet { 
+    String message; 
+    Date date; 
+ 
+    </span><span class="s0">/** 
+     * Construct the Tweets objects 
+     * 
+     * </span><span class="s1">@param </span><span class="s0">messgae,String type 
+     */</span><span class="s2"> 
+ 
+    Tweet(String messgae){ 
+        </span><span class="s3">this</span><span class="s2">.date = </span><span class="s3">new </span><span class="s2">Date(); 
+        </span><span class="s3">this</span><span class="s2">.message = messgae; 
+    } 
+ 
+    </span><span class="s0">/** 
+     * Gets the date of the tweet 
+     * 
+     * </span><span class="s1">@return </span><span class="s0">date, Date type 
+     */</span><span class="s2"> 
+    </span><span class="s3">public </span><span class="s2">Date getDate() { 
+        </span><span class="s3">return </span><span class="s2">date; 
+    } 
+ 
+    </span><span class="s0">/** 
+     * Sets the date to provided date object 
+     * 
+     * </span><span class="s1">@param </span><span class="s0">date, Date type 
+     */</span><span class="s2"> 
+    </span><span class="s3">public void </span><span class="s2">setDate(Date date) { 
+        </span><span class="s3">this</span><span class="s2">.date = date; 
+    } 
+ 
+    </span><span class="s0">/** 
+     * Returns messages of the tweet. 
+     * 
+     * </span><span class="s1">@return </span><span class="s0">message,String type 
+     */</span><span class="s2"> 
+    </span><span class="s3">public </span><span class="s2">String getMessage() { 
+        </span><span class="s3">return </span><span class="s2">message; 
+    } 
+ 
+    </span><span class="s0">/** 
+     * Returns a string content of this tweet 
+     * 
+     * </span><span class="s1">@return </span><span class="s0">message,String type 
+     */</span><span class="s2"> 
+    @Override 
+    </span><span class="s3">public </span><span class="s2">String toString(){ 
+        </span><span class="s3">return </span><span class="s2">message; 
+    } 
+ 
+ 
+} 
+</span></pre>
+</body>
+</html>
